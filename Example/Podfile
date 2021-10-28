@@ -1,0 +1,6 @@
+use_frameworks!
+target 'MBAFNetWorking_Tests' do
+  pod 'MBAFNetWorking', :path => '../'
+  
+  
+end

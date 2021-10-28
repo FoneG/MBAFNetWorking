@@ -1,0 +1,6 @@
+framework module MBAFNetWorking {
+  umbrella header "MBAFNetWorking-umbrella.h"
+
+  export *
+  module * { export * }
+}

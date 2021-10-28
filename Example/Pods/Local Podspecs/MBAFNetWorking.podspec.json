@@ -1,0 +1,27 @@
+{
+  "name": "MBAFNetWorking",
+  "version": "0.1.0",
+  "summary": "A short description of MBAFNetWorking.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/15757127193@163.com/MBAFNetWorking",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "15757127193@163.com": "15757127193@163.com"
+  },
+  "source": {
+    "git": "https://github.com/15757127193@163.com/MBAFNetWorking.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "MBAFNetWorking/Classes/**/*",
+  "dependencies": {
+    "AFNetworking": [
+      "~> 4.0.1"
+    ]
+  }
+}
