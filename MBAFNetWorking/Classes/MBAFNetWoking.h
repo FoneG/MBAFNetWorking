@@ -7,7 +7,8 @@
 
 #import <Foundation/Foundation.h>
 //#import <AFNetworking.h>
-#import "AFURLSessionManager.h"
+#import "AFNetworking.h"
+//#import "AFURLSessionManager.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
