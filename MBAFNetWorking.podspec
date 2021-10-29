@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MBAFNetWorking'
-  s.version          = '0.4.0'
+  s.version          = '0.5.0'
   s.summary          = 'A short description of MBAFNetWorking.'
 
 # This description is used to generate tags and improve search results.
@@ -38,5 +38,5 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-   #s.dependency 'AFNetworking', '~> 4.0.1'
+   s.dependency 'AFNetworking', '~> 4.0.1'
 end

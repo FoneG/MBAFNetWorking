@@ -1,15 +1,36 @@
 PODS:
-  - MBAFNetWorking (0.3.0)
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
+    - AFNetworking/NSURLSession
+  - MBAFNetWorking (0.5.0):
+    - AFNetworking (~> 4.0.1)
 
 DEPENDENCIES:
   - MBAFNetWorking (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AFNetworking
 
 EXTERNAL SOURCES:
   MBAFNetWorking:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MBAFNetWorking: 64fb72b5a171ee09dcd032e6f1d4da5d207ac053
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  MBAFNetWorking: b8a9fbc0ced07c8859ab8bbfa888ad5f2b380fe2
 
 PODFILE CHECKSUM: 4b870bd0155682d6db51c127ba7b6adf0ffb1b0a
 

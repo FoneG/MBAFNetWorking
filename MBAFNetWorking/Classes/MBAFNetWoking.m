@@ -9,4 +9,9 @@
 
 @implementation MBAFNetWoking
 
+- (instancetype)init{
+    AFURLSessionManager *maner = [[AFURLSessionManager alloc] init];
+    
+}
+
 @end
